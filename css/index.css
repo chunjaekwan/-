@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+#title {
+    background-image: url('../images/title.jpg');
+    background-color: #ccc;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#title nav {
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+a {
+    text-decoration: none;
+    margin: 20px;
+}
+#title h1 {
+    /* border: 1px solid #000; */
+    
+    margin-top: 250px;
+    text-align: center;
+    font-size: 72px;
+    font-weight: bold;
+    
+}
+
+#title h1 span {
+    font-size: 18px;
+    text-align: top 100px;
+}
+
+#about {
+    margin-top: 160px;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    background-image: url(../images/num01.png), url(../images/jake.jpg);
+    background-position: left top, bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 150px, 500px;
+    width: 100%;
+    height: 100vh;
+    background-origin: content-box;
+    padding: 100px;
+}
+
+
+/* #about div .ol2 {
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+} */
+
+#about h1 {
+    font-size: 52px;
+    text-align: right;
+}
+#about p {
+    width: 400px;
+    height: 250px;
+    border: 1px solid #333;
+    background-color: #333;
+    float: right;
+    margin: 19px;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 50px;
+    padding-top: 80px;
+    border-radius: 35px;
+    right: 50px;
+}
+
+#skills {
+    background-image: url(../images/num2.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    /* list-style-type: none; */
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/* .skills-list {
+    list-style-type: none;
+} */
+
+/* .skill01 {
+    border: 1px solid red;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    list-style-type: none;
+} */
